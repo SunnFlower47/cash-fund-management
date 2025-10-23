@@ -119,7 +119,7 @@ All documentation contributions must:
 ### Contact Information
 If you have questions about the license or need clarification:
 
-- **Email**: legal@cashmanagement.com
+- **Email**: sunflower.ra74@gmail.com
 - **GitHub**: Open an issue
 - **Documentation**: Check the project documentation
 
