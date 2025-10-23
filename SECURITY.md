@@ -18,7 +18,7 @@ Jika Anda menemukan kerentanan keamanan, harap lakukan hal berikut:
 
 1. **DO NOT** buat issue publik di GitHub
 2. **DO NOT** diskusikan kerentanan di forum publik
-3. **DO** kirim email ke security@cashmanagement.com
+3. **DO** kirim email ke sunflower.ra74@gmail.com
 4. **DO** berikan detail lengkap tentang kerentanan
 
 ### What to Include
