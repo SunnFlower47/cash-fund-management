@@ -1,10 +1,39 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
+    "name": "cash-management-system",
+    "version": "1.0.0",
+    "description": "Modern cash management system with PWA support, dark mode, and mobile-friendly interface",
     "private": true,
     "type": "module",
+    "keywords": [
+        "cash-management",
+        "laravel",
+        "pwa",
+        "dark-mode",
+        "mobile-friendly",
+        "financial-management",
+        "payment-tracking",
+        "audit-logging"
+    ],
+    "author": {
+        "name": "Cash Management Team",
+        "email": "team@cashmanagement.com"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/your-username/cash-management",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/cash-management.git"
+    },
+    "bugs": {
+        "url": "https://github.com/your-username/cash-management/issues"
+    },
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "watch": "vite build --watch",
+        "hot": "vite --host",
+        "production": "vite build --mode production"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
@@ -20,5 +49,14 @@
     },
     "dependencies": {
         "sweetalert2": "^11.26.3"
-    }
+    },
+    "engines": {
+        "node": ">=16.0.0",
+        "npm": ">=8.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
 }

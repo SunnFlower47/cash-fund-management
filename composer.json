@@ -1,9 +1,20 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "cash-management/cash-management-system",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "Modern cash management system with PWA support, dark mode, and mobile-friendly interface for financial tracking and payment management.",
+    "keywords": [
+        "cash-management",
+        "laravel",
+        "pwa",
+        "dark-mode",
+        "mobile-friendly",
+        "financial-management",
+        "payment-tracking",
+        "audit-logging",
+        "weekly-payments",
+        "payment-proofs"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",

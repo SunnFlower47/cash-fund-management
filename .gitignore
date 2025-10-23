@@ -1,8 +1,10 @@
+# Laravel
 *.log
-.DS_Store
 .env
 .env.backup
 .env.production
+.env.local
+.env.testing
 .phpactor.json
 .phpunit.result.cache
 /.fleet
@@ -22,3 +24,82 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+
+# Cache
+*.cache
+.cache/
+cache/
+
+# Logs
+logs/
+*.log
+laravel.log
+
+# Database
+*.sqlite
+*.db
+
+# Uploads
+/storage/app/public/payment_proofs/
+/storage/app/private/
+/storage/app/backups/
+
+# Testing
+/coverage/
+/.phpunit.cache
+/phpunit.xml
+
+# Dependencies
+/vendor/
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Build
+/public/build/
+/public/hot
+/public/mix-manifest.json
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+/tmp/
+/temp/
