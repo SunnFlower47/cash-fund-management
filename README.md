@@ -48,7 +48,7 @@ Sistem manajemen kas yang modern dan user-friendly untuk mengelola keuangan orga
 ## 🚀 Technology Stack
 
 ### Backend
-- **Laravel 10**: PHP Framework
+- **Laravel 12**: PHP Framework
 - **MySQL**: Database
 - **Spatie Laravel Permission**: Role & Permission Management
 - **Spatie Laravel Backup**: Database Backup
@@ -71,7 +71,7 @@ Sistem manajemen kas yang modern dan user-friendly untuk mengelola keuangan orga
 ## 📋 Requirements
 
 ### System Requirements
-- PHP >= 8.1
+- PHP >= 8.2++
 - MySQL >= 8.0
 - Composer
 - Node.js & NPM (untuk asset compilation)
@@ -412,7 +412,7 @@ tests/
    ```
 
 ### Server Requirements
-- **PHP**: 8.1 or higher
+- **PHP**: 8.2 or higher
 - **MySQL**: 8.0 or higher
 - **Web Server**: Apache/Nginx
 - **SSL**: Required for PWA features
